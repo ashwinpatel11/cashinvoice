@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: UserService
+  datasource:
+    url: jdbc:mysql://localhost:3306/csvapp
+    username: root
+    password: password
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8081
+
+
